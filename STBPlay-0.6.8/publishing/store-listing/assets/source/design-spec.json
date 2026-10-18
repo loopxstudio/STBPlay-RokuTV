@@ -1,0 +1,23 @@
+{
+  "palette": {
+    "background": "#070f1b",
+    "accent": "#18a7ff",
+    "text": "#f7fbff",
+    "secondary": "#a9bfd6"
+  },
+  "font": "Arial / Arial Bold",
+  "featureDimensions": [
+    1024,
+    500
+  ],
+  "tvStoreBannerDimensions": [
+    1280,
+    720
+  ],
+  "tvLauncherDimensions": [
+    320,
+    180
+  ],
+  "icon": "Existing STBPlay artwork, scaled only",
+  "screenshotPolicy": "Unaltered captures from the current app using synthetic demo data; no provider credentials or copyrighted program images."
+}

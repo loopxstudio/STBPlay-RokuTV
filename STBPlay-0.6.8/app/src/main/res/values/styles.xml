@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.STBPlay" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#159DFF</item>
+        <item name="android:colorControlActivated">#159DFF</item>
+        <item name="android:colorControlHighlight">#40159DFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#080D18</item>
+        <item name="android:navigationBarColor">#080D18</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>

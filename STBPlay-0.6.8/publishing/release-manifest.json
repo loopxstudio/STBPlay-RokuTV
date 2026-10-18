@@ -1,0 +1,29 @@
+{
+  "applicationId": "com.stbplay.app",
+  "versionName": "0.6.8",
+  "versionCode": 22,
+  "preparedDate": "2026-10-17",
+  "artifacts": [
+    {
+      "file": "STBPlay-0.6.8-release-test.apk",
+      "bytes": 3895226,
+      "sha256": "6b727e995466c2eb96abf7c0f5211589c65c9ed147f716c8e7664dd66e6fd844"
+    },
+    {
+      "file": "STBPlay-0.6.8-release.aab",
+      "bytes": 7295974,
+      "sha256": "8fd54e0aeafd68f0b4677c4c2e1bbfccf9bdf42bfdfedb6c0307a39c16a22178"
+    }
+  ],
+  "certificates": {
+    "aabUploadCertificateSHA256": "5E555E7DC83D6CAB1D3D71BABF07DE19181C8DB37AB3CF958B69154B95A3768C",
+    "testAPKDevelopmentCertificateSHA256": "1DDB1FC58B2C1E3E5139E113DAEAA74198E06F4B8ED72B864B8FBCA777D14E8F"
+  },
+  "tests": {
+    "unitPassed": 67,
+    "unitSkipped": 1,
+    "focusedAndroidPassed": 11,
+    "externalReleaseBlackBoxPassed": true
+  },
+  "policyStatus": "HTTP retained at owner request; secure-transmission policy concern unresolved. Public policy hosting, final TV testing and Console declarations remain."
+}
