@@ -1,5 +1,0 @@
-<en-US>
-Improved Stalker series browsing and episode playback requests.
-Refined source management, remote navigation and playback controls.
-Added clearer privacy information and local data controls.
-</en-US>
