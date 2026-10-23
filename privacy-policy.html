@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="How STBPlay for Roku handles provider connections, local information and your choices.">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="color-scheme" content="light dark">
+<title>STBPlay Privacy Policy</title>
+<style>
+:root{color-scheme:light dark;--bg:#f4f7fb;--paper:#fff;--ink:#162238;--muted:#52627a;--line:#dbe4ef;--accent:#006db8}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header{background:#091321;color:#fff;padding:44px 24px 38px;border-bottom:4px solid #12a3ff}.wrap{max-width:860px;margin:auto}.brand{font-size:26px;font-weight:800;letter-spacing:-.6px}.brand span{color:#22aaff}h1{font-size:clamp(30px,6vw,44px);line-height:1.2;margin:20px 0 12px}.lede{max-width:650px;color:#b9c8dc;margin:0}main{padding:30px 22px 50px}.paper{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:clamp(22px,4vw,42px)}.policy{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;margin:0}h2{font-size:22px;line-height:1.3;margin:30px 0 8px}h2:first-child{margin-top:0}p,li{overflow-wrap:anywhere}ul{padding-left:22px}.note{border-left:4px solid #12a3ff;padding:2px 16px;margin:22px 0;background:rgba(18,163,255,.08)}footer{font-size:14px;color:var(--muted);padding:25px 3px}a{color:var(--accent);text-underline-offset:3px}a:focus-visible{outline:3px solid #12a3ff;outline-offset:4px}.footlinks{display:flex;flex-wrap:wrap;gap:12px 24px}@media(prefers-color-scheme:dark){:root{--bg:#0a101b;--paper:#101c2e;--ink:#ecf2fb;--muted:#a8b8ce;--line:#2c3c52;--accent:#49b7ff}}@media print{body{background:#fff;color:#111;font-size:11pt}header{background:none;color:#111;padding:0;border:none}.lede,.brand{display:none}main{padding:15px 0}.paper{border:0;padding:0}footer{color:#333}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><div class="brand">STB<span>Play</span></div><h1>Privacy policy</h1><p class="lede">How STBPlay for Roku handles provider connections, local information and your choices.</p></div></header>
+<main class="wrap"><article class="paper" aria-label="STBPlay Privacy Policy"><pre class="policy">Effective date: 22 October 2026 (version 0.9.0)
+App: STBPlay for Roku
+Publisher: LoopX Studio
+Privacy and support contact: krsptrbeez@gmail.com
+
+1. What STBPlay does
+STBPlay is a media player for playlists and provider accounts that you supply. It does not provide channels, movies, subscriptions or an STBPlay account. The publisher does not operate a server that receives your sources, logins or viewing history. The channel contains no advertising, analytics or automatic crash-reporting service.
+
+2. Information you enter and requests to your provider
+Depending on the source you choose, you may enter a server or playlist address, a provider username and password, or a provider-registered MAC identifier. The MAC identifier is typed in by you; STBPlay does not read your Roku's hardware address, serial number or advertising identifier for it. These details are sent to the provider you chose so that it can sign you in and supply its catalog and streams. Playlist and stream addresses may themselves contain logins or tokens.
+Your provider and its content servers also receive the requests needed to browse folders, search, choose episodes and load streams. Those requests can reveal the title or channel you chose, your searches, your IP address, session cookies and ordinary technical headers, including the emulated set-top-box model that Stalker portals expect. If a provider refuses the channel's default request, STBPlay may retry with a generic player name (for example VLC or FFmpeg) in the user-agent header; this only changes what your provider sees. STBPlay does not sell this information and does not send it to any analytics service. Providers are independent: their own privacy policies, access rules and retention apply, and the publisher cannot see or delete their records.
+
+3. Information stored on your Roku
+The channel keeps your saved sources (including any username, password or MAC identifier you entered), your favorites, recently watched titles, playback positions, settings, the optional PIN verifier and your trial or pass record in the channel's private storage on your Roku. Other channels cannot read it. Roku does not give channels an encrypted key store, so this storage is not encrypted by STBPlay; it is protected by the Roku system's separation between channels. Anyone with access to a Roku that is switched on and unlocked can open the channel, so use the optional PIN and do not enter provider logins on a shared device you do not control. Catalog lists are held in memory while you browse. A downloaded playlist may be kept for a few minutes in the channel's temporary cache so that switching between Live TV, Videos (VOD) and Series is quick; it is removed with Delete my data and whenever Roku clears the cache.
+Program guide: when your source provides a program guide (the guide address in an M3U playlist, the Xtream guide file, or the portal's short program list), STBPlay downloads it directly from your provider while you use Live TV. Programme titles and times for the channels in your list are kept for a short time in the channel's temporary cache on your Roku; a portal's short program list is held in memory only. Guide data is not sent to the publisher, and it is removed with Delete my data and whenever Roku clears the cache.
+The optional PIN stores a salted, iterated hash instead of the PIN itself. It is an app-opening lock, not an age-rating or content-filtering system.
+Session cookies are held in memory while you use the channel.
+
+4. Device information and permissions
+STBPlay needs an internet connection. It does not use your location, contacts, camera or microphone and it does not read Roku's advertising identifier. It checks general device capabilities (such as display mode and memory level) only to choose a suitable playback quality. Network servers can still see your IP address and handle it under their own policies.
+Free trial: STBPlay can be tried free for 30 days. The trial start date is stored on your Roku, not sent to the publisher. Removing and re-adding the channel, or resetting your Roku, removes this record and a new trial may start.
+STBPlay Pass: after the trial, playback needs a pass bought through Roku Pay. A pass is a one-time purchase for one month or one year. It is not a subscription and does not renew automatically. Buying again adds time to a pass that is still running. The end date of your pass is stored on your Roku; if you remove the channel or reset the device, Roku Pay cannot restore it automatically, so contact support with your purchase receipt.
+Roku processes the payment under its own terms. STBPlay never receives or stores your card or payment details, and the publisher operates no payment server.
+
+5. HTTP and HTTPS
+STBPlay supports HTTP and HTTPS sources. HTTPS encrypts the connection when every endpoint supports it. HTTP does not encrypt logins, identifiers or viewing requests in transit. Use a provider that supports HTTPS where available. The channel does not turn off certificate checks.
+
+6. Retention and deletion
+Local data stays on your Roku until you remove it in the channel, remove the channel, or reset the device. Removing a source deletes its login, favorites and recent history. In Settings, Clear recent history and Clear favorites remove those lists, and Delete my data removes sources, logins, favorites, history, the PIN and settings. Your trial or pass record is kept by Delete my data so that it cannot be used to restart a finished trial; removing the channel from your Roku removes it as well. None of this cancels or deletes an account with an external provider; contact that provider about its account, subscription or server-held data. There is no publisher-operated STBPlay account to delete.
+
+7. Support messages
+If you email the support address you voluntarily provide your email address and whatever you write. The publisher uses it to answer your request and keeps it as long as needed to handle the request and meet legal obligations. Please do not send provider passwords, MAC identifiers, private playlist addresses or unredacted logs. You may ask for your support correspondence to be deleted, subject to applicable retention obligations. The channel never sends support messages or logs by itself.
+
+8. Children and external content
+STBPlay is not directed to children. It supplies no content and cannot judge the suitability of external catalogs. Parents should choose appropriate sources and manage provider accounts. The optional PIN does not replace supervision or a provider's parental controls.
+
+9. Changes and contact
+The publisher will update this policy, and the channel's store listing, if the channel's behavior changes. The effective date shows the latest revision. For privacy or support requests contact krsptrbeez@gmail.com and mention STBPlay. The publisher does not hold a copy of your sources or history that it could retrieve.
+</pre></article>
+<footer><p>This page contains no analytics, tracking scripts or embedded third-party resources.</p><div class="footlinks"><a href="index.html">Home</a><a href="privacy-policy.html">Privacy policy</a><a href="terms.html">Terms of use</a><a href="support.html">Support</a><a href="mailto:krsptrbeez@gmail.com">Email krsptrbeez@gmail.com</a></div></footer></main>
+</body></html>
